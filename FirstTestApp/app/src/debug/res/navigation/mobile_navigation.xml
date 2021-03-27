@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.firsttestapp.fragments.MainPageFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_main_page">
+
+        <action
+            android:id="@+id/action_HomeFragment_to_HomeSecondFragment"
+            app:destination="@id/account_details" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/request_consumables"
+        android:name="com.example.firsttestapp.fragments.ConsumablesFragment"
+        android:label="@string/consumable"
+        tools:layout="@layout/fragment_consumables">
+
+        <action
+            android:id="@+id/action_HomeSecondFragment_to_HomeFragment"
+            app:destination="@id/nav_home" />
+
+        <argument
+            android:name="myArg"
+            app:argType="string" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/about"
+        android:name="com.example.firsttestapp.fragments.AboutUsFragment"
+        android:label="@string/about"
+        tools:layout="@layout/fragment_about_us">
+
+        <action
+            android:id="@+id/action_HomeSecondFragment_to_HomeFragment"
+            app:destination="@id/nav_home" />
+
+        <argument
+            android:name="myArg"
+            app:argType="string" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/account_details"
+        android:name="com.example.firsttestapp.fragments.AccountDetailsFragment"
+        android:label="@string/account_details"
+        tools:layout="@layout/fragment_account_details">
+        <action
+            android:id="@+id/action_HomeSecondFragment_to_HomeFragment"
+            app:destination="@id/nav_home" />
+
+        <argument
+            android:name="myArg"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/findtech"
+        android:name="com.example.firsttestapp.fragments.MapFragment"
+        android:label="@string/account_details"
+        tools:layout="@layout/fragment_account_details">
+        <action
+            android:id="@+id/action_HomeSecondFragment_to_HomeFragment"
+            app:destination="@id/nav_home" />
+
+        <argument
+            android:name="myArg"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.firsttestapp.activities.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.firsttestapp.activities.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_brands"
+        android:name="com.example.firsttestapp.fragments.BrandsFragment"
+        android:label="@string/about_us"
+        tools:layout="@layout/fragment_brands" />
+
+    <fragment
+        android:id="@+id/nav_toner"
+        android:name="com.example.firsttestapp.fragments.TonerFragment"
+        android:label="@string/tonerTitle"
+        tools:layout="@layout/fragment_toner" />
+</navigation>

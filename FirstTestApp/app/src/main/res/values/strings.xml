@@ -1,0 +1,125 @@
+<resources>
+    <string name="hello_world">Hello world!</string>
+    <string name="toast">whats up</string>
+    <string name="title_activity_password">PasswordActivity</string>
+    <string name="instructions"><b>Please choose the choices that best suit your requirements</b></string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="app_name"><b><font fgcolor='#FFFF3B30'>Tap-A-Geek</font></b></string>
+    <string name="report_a_problem"><b><font fgcolor='#FFFF3B30'>Schedule Express Service/Parts</font></b></string>
+    <string name="see_past_reports"><b><font fgcolor='#FFFF3B30'>See Past Reports</font></b></string>
+    <string name="account_details"><b><font fgcolor='#FFFF3B30'>Account details</font></b></string>
+    <string name="find"><b><font fgcolor='#FFFF3B30'>Find A Tech Near You</font></b></string>
+    <string name="consumable"><b><font fgcolor='#FFFF3B30'> Buy Consumables</font></b></string>
+    <string name="clientstitle"><b><font fgcolor='#FFFF3B30' size="30">Our Expertise</font></b></string>
+    <string name="contact_us"><font size="15"><b><font fgcolor='#FFFF3B30'>647-761-5817 </font></b></font></string>
+    <string name="contact2"><font size="15"><b><font fgcolor='#FFFF3B30'>sathya6876@gmail.com</font></b></font></string>
+    <string name="about"><font size="15"><b><font fgcolor='#FFFF3B30'>About Us</font></b></font></string>
+    <string name="whatwedo"><font size="30"><b><font fgcolor='#FFFF3B30'>What do we do?</font></b></font></string>
+    <string name="brandsTitle"><font size="30"><b><font fgcolor='#FFFF3B30'>Brands we service!</font></b></font></string>
+    <string name="morebrands"><font size="30"><b><font fgcolor='#FFFF3B30'>And many more!</font></b></font></string>
+    <string name="consumablesTitle"><font size="30"><b><font fgcolor='#FFFBFB'>Buy Consumables</font></b></font></string>
+    <string name="tonerTitle"><font size="30"><b><font fgcolor='#FFFF3B30'>Buy Toner</font></b></font></string>
+    <string name="stapleTitle"><font size="30"><b><font fgcolor='#FFFF3B30'>Buy Staples</font></b></font></string>
+    <string name="paperTitle"><font size="30"><b><font fgcolor='#FFFF3B30'>Buy Paper</font></b></font></string>
+    <string name="OtherTitle"><font size="30"><b><font fgcolor='#FFFF3B30'>Buy Other Consumables</font></b></font></string>
+    <string name="skipBtn"><font size="15"><b><font>Skip for now</font></b></font></string>
+    <string name="loginBtn"><font size="15"><b><font>Login</font></b></font></string>
+    <string name="signupBtn"><font size="15"><b><font>Sign up</font></b></font></string>
+    <string name="TrialTitle"><font size="13"><b><font fgcolor='#FFFBFB'>To view all features please sign in or register</font></b></font></string>
+    <!--    <string name="TrialTitle2"><font size="15"><b><font fgcolor='#FFFBFB'>please sign in or register</font></b></font></string>-->
+
+
+    <string name="clients"><b><font fgcolor='#FFFF3B30'>Our Expertise</font></b></string>
+    <string name="straphs"><b><font size="30">St Raphaels Parish</font></b></string>
+    <string name="custom"><b><font size="30">Custom Printing</font></b></string>
+    <string name="logos"><b><font size="30">Logos Graphics</font></b></string>
+    <string name="Erin"><b><font size="30">Erin Mills Printing</font></b></string>
+
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string-array name="make">
+        <item>Make</item>
+        <item>Konica minolta</item>
+        <item>Canon</item>
+        <item>Xerox</item>
+        <item>Ricoh</item>
+        <item>Toshiba</item>
+        <item>Oki</item>
+        <item>Xanté</item>
+        <item>kyocera</item>
+        <item>sharp</item>
+        <item>hp</item>
+        <item>Lexmark</item>
+        <item>others</item>
+    </string-array>
+
+    <string-array name="PaperType">
+        <item>Type</item>
+        <item>Gloss</item>
+        <item>Linen</item>
+        <item>Bond</item>
+        <item>Synthetic</item>
+        <item>Matte</item>
+        <item>Label</item>
+        <item>Envelope</item>
+        <item>Window Envelope</item>
+        <item>Other</item>
+
+
+    </string-array>
+
+    <string-array name="model">
+        <item>Model</item>
+        <item>Color</item>
+        <item>Fax</item>
+        <item>Scanner</item>'
+        <item>Black and White</item>
+
+    </string-array>
+
+    <string-array name="problems">
+        <item>Request</item>
+        <item>Supplies</item>
+        <item>Parts</item>
+        <item>IT help</item>
+        <item>Training</item>
+        <item>Preventative maintenance</item>
+        <item>Unknown error</item>
+        <item>others</item>
+
+    </string-array>
+
+    <string-array name="networking">
+        <!--        <item>Networks</item>-->
+        <item>Cisco</item>
+        <item>Dell</item>
+        <item>D-Link</item>
+        <item>linksys</item>
+
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_tech_map">Map</string>
+    <string name="title_activity_main">Tap-A-Geek</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">sales@foursquare.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="home_second">Home Second</string>
+    <string name="about_us">About Us</string>
+
+
+</resources>

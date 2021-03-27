@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SubmitReportActivity">
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OurClientsActivity">
+
+<TextView
+android:id="@+id/about1"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_marginBottom="162dp"
+android:text="@string/clientstitle"
+app:layout_constraintBottom_toBottomOf="parent"
+app:layout_constraintEnd_toEndOf="parent"
+app:layout_constraintHorizontal_bias="0.491"
+app:layout_constraintStart_toStartOf="parent"
+app:layout_constraintTop_toTopOf="parent"
+app:layout_constraintVertical_bias="0.027" />
+
+    <TextView
+        android:id="@+id/straphaelparish"
+        android:layout_width="176dp"
+        android:layout_height="126dp"
+        android:text="@string/straphs"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.059"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/probenefits"
+        app:layout_constraintVertical_bias="0.613" />
+
+
+    <TextView
+        android:id="@+id/custom"
+        android:layout_width="176dp"
+        android:layout_height="126dp"
+        android:text="@string/custom"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.034"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/probenefits"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/ErinMills"
+        android:layout_width="159dp"
+        android:layout_height="127dp"
+        android:layout_marginStart="104dp"
+        android:text="@string/Erin"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.898"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/printbuy"
+        app:layout_constraintVertical_bias="0.615" />
+
+    <TextView
+        android:id="@+id/logos"
+        android:layout_width="159dp"
+        android:layout_height="127dp"
+        android:layout_marginStart="104dp"
+        android:text="@string/logos"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.898"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/printbuy"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ImageView
+        android:id="@+id/badboy"
+        android:layout_width="138dp"
+        android:layout_height="115dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="34dp"
+        android:layout_marginEnd="262dp"
+        android:layout_marginBottom="582dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/badboy" />
+
+    <ImageView
+        android:id="@+id/BTS"
+        android:layout_width="138dp"
+        android:layout_height="115dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.941"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.055"
+        app:srcCompat="@mipmap/bts" />
+
+
+    <ImageView
+        android:id="@+id/probenefits"
+        android:layout_width="138dp"
+        android:layout_height="115dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.058"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/badboy"
+        app:layout_constraintVertical_bias="0.053"
+        app:srcCompat="@mipmap/probenefits" />
+
+    <ImageView
+        android:id="@+id/oakville"
+        android:layout_width="170dp"
+        android:layout_height="167dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.058"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/badboy"
+        app:layout_constraintVertical_bias="0.379"
+        app:srcCompat="@mipmap/oakville" />
+
+    <ImageView
+        android:id="@+id/postplus"
+        android:layout_width="150dp"
+        android:layout_height="151dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.988"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/badboy"
+        app:layout_constraintVertical_bias="0.366"
+        app:srcCompat="@mipmap/postplus" />
+
+    <ImageView
+        android:id="@+id/printbuy"
+        android:layout_width="138dp"
+        android:layout_height="115dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.865"
+        app:layout_constraintStart_toEndOf="@+id/probenefits"
+        app:layout_constraintTop_toBottomOf="@+id/BTS"
+        app:layout_constraintVertical_bias="0.053"
+        app:srcCompat="@mipmap/printbuy" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

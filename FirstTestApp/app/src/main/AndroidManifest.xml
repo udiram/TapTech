@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.firsttestapp">
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality.
+    -->
+    <uses-permission
+        android:name="android.permission.ACCESS_FINE_LOCATION"
+        android:required="true" />
+    <uses-permission
+        android:name="android.permission.ACCESS_COARSE_LOCATION"
+        android:required="true" />
+    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+
+    <uses-feature
+        android:name="android.hardware.fingerprint"
+        android:required="false" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/tech"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/tech"
+        android:screenOrientation="portrait"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:windowSoftInputMode="adjustPan|stateHidden">
+        <activity
+            android:name=".activities.MainActivity"
+            android:label="@string/title_activity_main"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".activities.AddDetailsActivity" />
+        <activity android:name=".activities.ManualRegistrationActivity" />
+        <activity android:name=".activities.TrialPageActivity" />
+        <activity android:name=".activities.SignupLoginActivity">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activities.StaplesActivity" />
+        <activity android:name=".activities.PaperActivity" />
+        <activity android:name=".activities.ConsumablesActivity" />
+        <activity android:name=".activities.TonerActivity" />
+        <activity android:name=".activities.OtherConsumablesActivity" />
+        <activity android:name=".activities.OurClientsActivity" />
+        <activity android:name=".activities.AboutUsActivity" />
+        <activity android:name=".activities.SeeExistingActivity" />
+        <activity android:name=".activities.AddMachineActivity" />
+        <activity android:name=".activities.ProfileActivity" />
+        <activity android:name=".activities.TechActivity" />
+        <activity android:name=".activities.ReportActivity" />
+        <activity android:name=".activities.BrandsActivity" />
+
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBATMy9m9MEuqwJSYwr8NKz8Xrr0pT8rbY" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <activity android:name=".activities.PastReportActivity" />
+        <activity android:name=".activities.SubmitReportActivity" /> <!-- <activity android:name=".ReportActivity"/> -->
+        <activity android:name=".activities.LauncherActivity">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity android:name=".activities.PasswordActivity">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+    </application>
+
+</manifest>
